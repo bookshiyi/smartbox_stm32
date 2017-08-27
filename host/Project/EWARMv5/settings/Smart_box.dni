@@ -1,0 +1,185 @@
+[DebugChecksum]
+Checksum=2044137733
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=4500000
+JtagSpeed=4500000
+Prescaler=16
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[PlDriver]
+MemConfigValue=D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\CONFIG\debugger\ST\STM32F103RC.ddf
+[Jet]
+DisableInterrupts=0
+LeaveRunning=0
+MultiCoreRunAll=0
+JetConnSerialNo=01387
+JetConnFoundProbes=
+[ArmDriver]
+EnableCache=1
+[PlDdfRanges]
+ConfigRanges0=Memory Periph0 1073741824 144384 2
+ConfigRanges1=Memory Periph_BitBand 1107296256 4620288 2
+ConfigRanges2=Memory SystemSFR 3758096384 1048576 2
+ConfigRanges3=Memory ROM 536862720 6160 1
+ConfigRanges4=Memory ExtDev 1610612736 1073741824 2
+ConfigRanges5=Memory Periph1 2684354560 4096 2
+ConfigRanges6=Memory RemapMem 0 262144 1
+ConfigRanges7=Memory Flash 134217728 262144 1
+ConfigRanges8=Memory RAM 536870912 49152 0
+ConfigRanges9=Memory RAM_BitBand 570425344 1572864 0
+[PlCacheRanges]
+CustomRanges0=0 0 262144 1 0
+CustomRangesText0=
+CustomRanges1=0 134217728 262144 1 0
+CustomRangesText1=
+CustomRanges2=0 536862720 6160 1 0
+CustomRangesText2=
+CustomRanges3=0 536870912 49152 0 0
+CustomRangesText3=
+CustomRanges4=0 570425344 1572864 0 0
+CustomRangesText4=
+CustomRanges5=0 1073741824 144384 2 0
+CustomRangesText5=
+CustomRanges6=0 1107296256 4620288 2 0
+CustomRangesText6=
+CustomRanges7=0 1610612736 1073741824 2 0
+CustomRangesText7=
+CustomRanges8=0 2684354560 4096 2 0
+CustomRangesText8=
+CustomRanges9=0 3758096384 1048576 2 0
+CustomRangesText9=
+[array_types]
+Fmt0=char[241]	4	0
+Fmt1=u8[205]	4	0
+Fmt2=u8[20]	4	0
+Fmt3=u8[255]	4	0
+Fmt4=u8[2]	4	0
+Fmt5=u8[30]	5	0
+Fmt6=u8[3]	4	0
+Fmt7=u8[4]	4	0
+Fmt8=u8[6]	4	0
+Fmt9=u8[8]	3	0
+Fmt10=uint8_t[255]	4	0
+[watch_formats]
+Fmt0={W}1:FLAG_VALUE_COUNTER	3	0
+Fmt1={W}1:Match_Flag	1	0
+Fmt2={W}1:SELF_CHECK_CODE	1	0
+Fmt3={W}1:Self_Check_Code	1	0
+Fmt4={W}1:send_data[0]	3	0
+Fmt5={W}1:send_data[1]	3	0
+Fmt6={W}42:SELF_CHECK_CODE	1	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+Count=0
+SuppressDialog=0

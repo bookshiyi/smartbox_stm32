@@ -1,0 +1,60 @@
+<hmi>
+├DisplayConfig.xls
+├DWprj.hmi
+├DWprj.tft
+├smartbox.hmi
+├TouchConfig.xls
+├<DWIN_SET>
+│  ├0_DWIN_ASC.HZK
+│  ├0_开机界面.bmp
+│  ├1_主界面.bmp
+│  ├13触控配置文件.bin
+│  ├14变量配置文件.bin
+│  ├2_主界面_效果.bmp
+│  ├22_Config.bin
+│  ├3_取餐.bmp
+│  ├4_取餐_效果.bmp
+│  ├5_存餐.bmp
+│  ├6_存餐_效果.bmp
+│  ├60_GBK16_宋体.HZK
+│  ├66_GBK24_宋体.HZK
+│  ├7_请稍候.bmp
+│  └CONFIG.txt
+├<ICON>
+├<image>
+│  ├0_开机界面.bmp
+│  ├1_主界面.bmp
+│  ├1_主界面.psd
+│  ├10_数字键盘.psd
+│  ├2_主界面_效果.bmp
+│  ├2_主界面_效果.psd
+│  ├3_取餐.bmp
+│  ├3_取餐.psd
+│  ├4_取餐_效果.bmp
+│  ├4_取餐_效果.psd
+│  ├5_存餐.bmp
+│  ├5_存餐.psd
+│  ├6_存餐_效果.bmp
+│  ├6_存餐_效果.psd
+│  ├7_请稍候.bmp
+│  ├7_请稍候.psd
+│  └Mayor_Coffee_128px_1183936_easyicon.net.png
+├<TFT>
+│  ├0_01_开机LOGO.bmp.tft
+│  ├0_开机LOGO.bmp.tft
+│  ├0_开机界面.bmp.tft
+│  ├001_开机LOGO.bmp.tft
+│  ├1_02_主界面.bmp.tft
+│  ├1_主界面.bmp.tft
+│  ├2_03_主界面_效果.bmp.tft
+│  ├2_主界面 效果.bmp.tft
+│  ├2_主界面_效果.bmp.tft
+│  ├3_04_取餐.bmp.tft
+│  ├3_取餐.bmp.tft
+│  ├4_05_取餐_效果.bmp.tft
+│  ├4_取餐_效果.bmp.tft
+│  ├5_存餐.bmp.tft
+│  ├5_数字键盘.bmp.tft
+│  ├6_存餐_效果.bmp.tft
+│  ├7_请稍候.bmp.tft
+│  └9_数字键盘.bmp.tft

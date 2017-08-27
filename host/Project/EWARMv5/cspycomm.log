@@ -1,0 +1,36 @@
+jun 20/08:18:45.053 DEBUG2 : 		
+
+StartSession()
+
+jun 20/08:18:45.057 DEBUG2 : 		-> ConnectToHardware()
+jun 20/08:18:45.057 DEBUG2 : 		-> CreateJetTerminal()
+jun 20/08:18:45.057 DEBUG2 : 		<- CreateJetTerminal()
+jun 20/08:18:45.057 DEBUG2 : 		-> AcquireSigAPIPtr()
+jun 20/08:18:45.057 DEBUG2 : 		  SigAPISetPath('D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\bin\jet\bin')
+jun 20/08:18:45.058 DEBUG2 : 		<- AcquireSigAPIPtr()
+jun 20/08:18:45.058 DEBUG2 : 		-> AcquireSigProbe()
+jun 20/08:18:45.058 DEBUG2 : 		  SigProbe version: 1.11
+jun 20/08:18:45.058 DEBUG2 : 		<- AcquireSigProbe()
+jun 20/08:18:45.058 DEBUG2 : 		-> SigProbeInit()
+jun 20/08:18:45.058 INFO   : Probe: CMSIS-DAP probe SW module ver 1.11
+
+jun 20/08:18:45.058 DEBUG2 : 		<- SigProbeInit()
+jun 20/08:18:45.058 DEBUG2 : 		-> ConnectToProbe()
+jun 20/08:18:45.059 DEBUG2 : 		  ISigProbe::EnumScan()
+jun 20/08:18:45.063 DEBUG2 : 		  scanning finished: found 0 probes
+jun 20/08:18:46.536 DEBUG2 : 		<- ConnectToProbe()
+jun 20/08:18:46.536 DEBUG2 : 		<- ConnectToHardware()
+jun 20/08:18:46.536 DEBUG2 : 		********** 'Controlled' exception (1) caught in DbBeginSession
+jun 20/08:18:46.587 DEBUG2 : 		-> AboutToStopSession()
+jun 20/08:18:46.587 DEBUG2 : 		<- AboutToStopSession()
+jun 20/08:18:46.592 DEBUG2 : 		-> PrepareStopSession()
+jun 20/08:18:46.592 DEBUG2 : 		<- PrepareStopSession()
+jun 20/08:18:46.676 DEBUG2 : 		StopGui()
+jun 20/08:18:46.683 DEBUG2 : 		-> StopSession()
+jun 20/08:18:46.685 DEBUG2 : 		-> TerminateHardware()
+jun 20/08:18:46.686 DEBUG2 : 		  SigAPITerm()
+jun 20/08:18:46.686 DEBUG2 : 		<- TerminateHardware()
+jun 20/08:18:46.686 DEBUG2 : 		<- StopSession()
+jun 20/08:18:46.686 DEBUG2 : 		-> ~TdJetDriver()
+jun 20/08:18:46.686 DEBUG2 : 		-> TerminateHardware()
+jun 20/08:18:46.686 DEBUG2 : 		<- TerminateHardware()
