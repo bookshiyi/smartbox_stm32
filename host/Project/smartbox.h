@@ -24,7 +24,7 @@
 
 //定义静态参数
 #define BUF 		0 					//第0组数据库数组为缓冲区
-#define BOX_NUM 	20 					//定义箱子数目
+#define BOX_NUM 	12 					//定义箱子数目
 #define ORDER_LEN 	15					//定义订单号的长度
 #define PWD_LEN 	6 					//定义随机验证码的长度
 #define HIGH 		0					//高半字为数组第0个

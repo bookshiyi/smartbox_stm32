@@ -21,7 +21,7 @@
 #include "includes.h"
 
 SmartBox_Arg_TypeDef		SmartBox_Arg;//定义参数结构体
-SmartBox_DataBase_TypeDef 	SmartBox_DataBase[BOX_NUM+1];//共20个箱门（多生成一个第0数组用来记录状态和对齐数组，保留）
+SmartBox_DataBase_TypeDef 	SmartBox_DataBase[BOX_NUM+1];//共bux_num个箱门（多生成一个第0数组用来记录状态和对齐数组，保留）
 Hist_DataBase_TypeDef       Hist_DataBase[100];//记录100条历史记录
 Icon_Data_TypeDef 			Icon_Data={{0x00,0x00},{0x00,0x01},{0x00,0x02},{0x00,0x03},{0x00,0x04},{0x00,0x01},{0x00,0x05},{0x00,0x06}};
 
