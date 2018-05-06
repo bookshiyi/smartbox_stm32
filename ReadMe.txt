@@ -1,9 +1,11 @@
-Github地址：http://github.com/oarap-org/smartbox_stm32
 
-硬件原理图：http://oarap.org/wp-content/uploads/2016/06/smartbox-rev1.4.pdf
+项目简介：http://bookshiyi.com/archives/926
+
+Github地址：http://github.com/bookshiyi/smartbox_stm32
+
+硬件原理图：https://oss.bookshiyi.com/file/2016/06/smartbox-rev1.4.pdf
 
 演示视频：http://v.youku.com/v_show/id_XMTYxODAxMjI2NA==.html
-
 
 
 
